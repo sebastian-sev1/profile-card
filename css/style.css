@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdfdfd;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  margin: 60px auto;
+  padding: 0em 0.5em;
+  display: block;
+  max-width: 1200px;
+}
+
+img {
+  width: 100%;
+}
+
+.card-profile {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  max-height: 560px;
+  background: #ffffff;
+  box-shadow: 0px 0px 35px -20px rgba(0, 0, 0, 0.4);
+  padding: 22px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+.card-profile .card-header-top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-profile .card-header-top .arrow-left {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.card-profile .card-header-top .arrow-left i {
+  font-size: 18px;
+  color: #333;
+}
+.card-profile .card-header-top .more-options {
+  display: flex;
+  align-items: center;
+  grid-gap: 1em;
+}
+.card-profile .card-header-top .more-options .icon {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.card-profile .card-header-top .more-options .icon i {
+  font-size: 18px;
+  color: #333;
+}
+.card-profile .profile-public {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  margin-top: 1em;
+}
+.card-profile .profile-public .item {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.card-profile .profile-public .item .number h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.card-profile .profile-public .item .data .text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+}
+.card-profile .profile-public .item-center {
+  border-left: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+}
+
+.data-profile-public {
+  margin: 0.4em 0;
+  text-align: center;
+}
+.data-profile-public .photo-profile-user {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.data-profile-public .photo-profile-user .picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0px 0px 35px -14px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.data-profile-public .photo-profile-user .icon-verification {
+  position: absolute;
+  background: #5332c8;
+  bottom: 1em;
+  left: 7.4em;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+}
+.data-profile-public .photo-profile-user .icon-verification i {
+  font-size: 15px;
+  color: #ddd;
+}
+.data-profile-public .data-public {
+  display: block;
+  margin-top: 1em;
+}
+.data-profile-public .data-public .username .name {
+  font-size: 22px;
+  font-weight: 600;
+}
+.data-profile-public .data-public .info-relative {
+  margin-bottom: 6px;
+}
+.data-profile-public .data-public .info-relative .text {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #949494;
+}
+.data-profile-public .data-public .text-description {
+  display: block;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.data-profile-public .data-public .text-description .text {
+  display: block;
+  position: relative;
+  color: #333;
+  font-size: 12px;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+.data-profile-public .data-public .btn-profile .btn {
+  display: inline-block;
+  background: #5332c8;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 1em 4em;
+  margin-top: 5px;
+  margin-bottom: 0.5em;
+}
+
+/*# sourceMappingURL=style.css.map */
